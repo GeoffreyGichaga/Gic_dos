@@ -7,11 +7,19 @@ import { LoginComponent } from './login/login.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar'
+import {MatGridListModule} from '@angular/material/grid-list';
+import { LandingpageGridComponent } from './landingpage-grid/landingpage-grid.component';
+import { NavbarComponent } from './navbar/navbar.component';
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    LandingpageGridComponent,
+    NavbarComponent
     
   ],
   imports: [
@@ -20,6 +28,7 @@ import {MatToolbarModule} from '@angular/material/toolbar'
     MatSlideToggleModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatGridListModule
     
 
   ],
